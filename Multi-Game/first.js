@@ -16,7 +16,7 @@ qusEl.innerText=`What will be ${num1} Multiply by ${num2} ?`;
 
 
 formEl.addEventListener("submit",(e)=>{
-   e.preventDefault();
+//    e.preventDefault();
    const myans = +inputEl.value;
    inputEl.value = '';
    console.log(myans,typeof myans);
